@@ -14,5 +14,6 @@ it("returns all the strings that contains the searched keyword", () => {
         'Starting a new job is exciting but stressful.' 
     ]
     assert.deepEqual(index.matches(x), y);
+    
 });
 
